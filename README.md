@@ -15,7 +15,7 @@ To keep your inbox clean and ensure the automation works perfectly, the flow is 
 3. Create an Outlook Inbox Rule:
    **Condition:** If the subject includes `OJT_`
    **Action:** Move to the `OJT_Logs` folder
-4. *(Optional but Recommended):* Once you receive your first bot email, check your Junk/Quarantine folder and mark it as "Not Junk" to whitelist it.
+4. *(Optional but Recommended):* Once you receive your first bot email, check your [Junk/Quarantine](https://security.microsoft.com/quarantine) folder and mark it as "Not Junk" to whitelist it. This [link](https://support.microsoft.com/en-US/Outlook/mail/add-recipients-to-the-safe-senders-list-in-outlook) might be also helpful
 
 ### Step 2: Import the Power Automate Workflow
 This workflow catches the bot's data payloads and updates your specific records on the master SharePoint list.
