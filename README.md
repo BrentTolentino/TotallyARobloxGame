@@ -23,7 +23,7 @@ This workflow catches the bot's data payloads and updates your specific records 
 2. Log into [Power Automate](https://make.powerautomate.com/) using your CIT-U Microsoft account.
 3. Go to **My flows** > **Import** > **Import Package (Legacy)**.
 4. Upload the `.zip` file.
-5. During the import process, you will be prompted to resolve the connections (Outlook and SharePoint). Click on each one and sign in with your institutional account.
+5. During the import process, you will be prompted to resolve the connections (Outlook and SharePoint). Click on each one and sign in with your institutional account. Also for Content conversion, configure it and select Create New and find the Content Conversion Connection. 
 6. Once imported, simply **Turn On** the flow. You do not need to edit any of the blocks!
 
 ### Step 3: Register in Discord
